@@ -77,5 +77,22 @@
     ]
   },
   "database_integrity": "ok",
-  "foreign_key_violations": []
+  "foreign_key_violations": [],
+  "dashboard_screenshot_checks": {
+    "artifact": "screenshots/PowerBI.png",
+    "visible_cards_match_2024_q4": {
+      "sales_usd": 50897.24,
+      "gross_profit_usd": 19547.93,
+      "units_sold": 665
+    },
+    "annual_2024_insight_text_verified": {
+      "furniture_sales_usd": 72602.14,
+      "furniture_share_rounded_percent": 54.3,
+      "december_sales_usd": 22353.21,
+      "q4_share_rounded_percent": 38.1,
+      "leading_region": "Northeast",
+      "leading_segment": "Corporate"
+    },
+    "limitation": "Static annual insight text and Q4 cards have different scopes; no editable report supplied."
+  }
 }

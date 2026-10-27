@@ -8,7 +8,7 @@ All retail records are **synthetic**, generated with OpenAI ChatGPT on October 2
 
 `raw CSVs → Python cleaning → SQLite star schema + cleaned CSV exports → Power BI semantic model`
 
-Power BI used the **cleaned CSV exports from the SQLite warehouse**, with relationships recreated in its semantic model—not a direct SQLite connection. This import workflow is documented from the project owner's account. The supplied project contains no Power BI report file or dashboard screenshots, so the report's visual appearance and interactions could not be independently verified. DataGrip serves as the SQL inspection/query client; no private connection profiles are included.
+Power BI used the **cleaned CSV exports from the SQLite warehouse**, with relationships recreated in its semantic model—not a direct SQLite connection. This import workflow is documented from the project owner's account. A supplied dashboard screenshot is included below and its displayed totals were checked against SQLite. No editable PBIX/PBIP report file was supplied, so semantic-model configuration, DAX definitions, and interactive behavior could not be independently inspected. DataGrip serves as the SQL inspection/query client; no private connection profiles are included.
 
 ## Cleaning and verified counts
 
@@ -135,7 +135,15 @@ SUMX(
 
 Gross profit is discounted sales less catalog product cost; **it excludes operating expenses** and is not net profit. The added Gross Profit measure was reconciled using equivalent SQL; DAX execution was not tested in Power BI here.
 
-The reproduction guide specifies sales/profit/units cards, a calendar drill-down column chart, category bars, category-by-region matrix, and product ranking, with year, quarter, category, region, and segment slicers. No visual configuration is presented as independently observed without a report artifact.
+### Dashboard screenshot
+
+![Power BI retail dashboard showing 2024 Q4 sales, profit, units, charts, and slicers](screenshots/PowerBI.png)
+
+The supplied screenshot shows Total Sales, Total Profit, and Units Sold cards; sales charts by category, month, region, and segment; and year, category, and region slicers. It also displays drill controls and instructions for year → quarter → month exploration. The selected year is 2024 and the monthly chart shows October–December. The cards reconcile to **2024 Q4**: $50,897.24 sales (50.90K), $19,547.93 gross profit (19.55K), and 665 units. Although the card says “Total Profit,” the reconciled calculation is gross profit before operating expenses.
+
+The static “2024 Overview” insight text describes the **full year**, a different scope from the visible Q4 cards/charts. Its claims also reconcile: Furniture sales were $72,602.14 (54.3% of annual sales), December led at $22,353.21, and Q4 represented 38.1% of annual sales. Northeast led full-year regional sales and Corporate led full-year segment sales. Readers should keep these scopes separate; an editable report would be needed to inspect the filter/drill configuration or make the insight text dynamic.
+
+`POWER_BI_PLAN.md` distinguishes the observed visuals from additional suggested configurations. The screenshot verifies visible content, not the underlying model relationships, measure formulas, or slicer interactions.
 
 ## Verified findings
 
@@ -188,6 +196,7 @@ Publication verification rebuilt an isolated temporary copy, leaving original ou
 ├── query_results/               # Slice, dice, drill-down CSV results
 ├── validation.json              # Builder validation output
 ├── verification_results.json    # Independent publication checks
+├── screenshots/PowerBI.png       # Supplied dashboard screenshot
 ├── star_schema.mmd
 ├── measures.dax
 └── POWER_BI_PLAN.md              # CSV import/model and visual reproduction guide
@@ -195,4 +204,4 @@ Publication verification rebuilt an isolated temporary copy, leaving original ou
 
 ## Limitations
 
-This is a small, fixed teaching dataset with hard-coded expected counts and a 2024–2025 calendar. It is not a general-purpose production ETL pipeline: unanticipated malformed fields can fail the build, and conflicting normalized dimension IDs are not explicitly audited. Costs use the fixed catalog rather than historical cost records; returns, inventory, operating expenses, and slowly changing dimensions are not modeled. There is no hosted dashboard, report file, or screenshot in this repository. DataGrip and Power BI interactions were not independently replayed during publication. No private course links, instructor materials, or classmates' work are included.
+This is a small, fixed teaching dataset with hard-coded expected counts and a 2024–2025 calendar. It is not a general-purpose production ETL pipeline: unanticipated malformed fields can fail the build, and conflicting normalized dimension IDs are not explicitly audited. Costs use the fixed catalog rather than historical cost records; returns, inventory, operating expenses, and slowly changing dimensions are not modeled. A dashboard screenshot is included, but no hosted dashboard or editable Power BI report file is available. DataGrip and Power BI interactions were not independently replayed during publication. No private course links, instructor materials, or classmates' work are included.

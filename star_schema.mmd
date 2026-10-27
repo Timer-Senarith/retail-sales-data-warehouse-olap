@@ -1,0 +1,37 @@
+erDiagram
+    dim_date ||--o{ fact_sales : date_key
+    dim_product ||--o{ fact_sales : product_id
+    dim_customer ||--o{ fact_sales : customer_id
+    fact_sales {
+        TEXT sale_id PK
+        INTEGER date_key FK
+        TEXT product_id FK
+        TEXT customer_id FK
+        INTEGER quantity
+        INTEGER unit_price_cents
+        REAL discount_rate
+        INTEGER sales_amount_cents
+    }
+    dim_date {
+        INTEGER date_key PK
+        TEXT full_date
+        INTEGER year
+        INTEGER quarter
+        INTEGER month_number
+        TEXT month_name
+    }
+    dim_product {
+        TEXT product_id PK
+        TEXT product_name
+        TEXT category
+        INTEGER list_price_cents
+        INTEGER unit_cost_cents
+    }
+    dim_customer {
+        TEXT customer_id PK
+        TEXT customer_name
+        TEXT city
+        TEXT state
+        TEXT region
+        TEXT segment
+    }

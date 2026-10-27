@@ -1,0 +1,121 @@
+customer_id,customer_name,city,state,region,segment
+C001,Sample Customer 001,Boston,MA,Northeast,Small Business
+C002,Sample Customer 002,New York,NY,Northeast,Consumer
+C003,Sample Customer 003,Chicago,IL,Midwest,Corporate
+C004,Sample Customer 004,Detroit,MI,Midwest,Small Business
+C005,Sample Customer 005,Atlanta,GA,South,Consumer
+C006,Sample Customer 006,Austin,TX,South,Small Business
+C007,Sample Customer 007,Seattle,WA,West,Corporate
+C008,Sample Customer 008,Denver,CO,West,Corporate
+C009,Sample Customer 009,Boston,MA,Northeast,Consumer
+C010,Sample Customer 010,New York,NY,Northeast,Consumer
+C011,Sample Customer 011,Chicago,IL,Midwest,Corporate
+C012,Sample Customer 012,Detroit,MI,Midwest,Small Business
+C013,Sample Customer 013,Atlanta,GA,South,Small Business
+C014,Sample Customer 014,Austin,TX,South,Corporate
+C015,Sample Customer 015,Seattle,WA,West,Corporate
+C016,Sample Customer 016,Denver,CO,West,Consumer
+C017,Sample Customer 017,Boston,MA,Northeast,Corporate
+C018,Sample Customer 018,New York,NY,Northeast,Consumer
+C019,Sample Customer 019,Chicago,IL,Midwest,Consumer
+C020,Sample Customer 020,Detroit,MI,Midwest,Small Business
+C021,Sample Customer 021,Atlanta,GA,South,Small Business
+C022,Sample Customer 022,Austin,TX,South,Small Business
+C023,Sample Customer 023,Seattle,WA,West,Small Business
+C024,Sample Customer 024,Denver,CO,West,Small Business
+C025,Sample Customer 025,Boston,MA,Northeast,Small Business
+C026,Sample Customer 026,New York,NY,Northeast,Small Business
+C027,Sample Customer 027,Chicago,IL,Midwest,Small Business
+C028,Sample Customer 028,Detroit,MI,Midwest,Small Business
+C029,Sample Customer 029,Atlanta,GA,South,Small Business
+C030,Sample Customer 030,Austin,TX,South,Corporate
+C031,Sample Customer 031,Seattle,WA,West,Small Business
+C032,Sample Customer 032,Denver,CO,West,Consumer
+C033,Sample Customer 033,Boston,MA,Northeast,Small Business
+C034,Sample Customer 034,New York,NY,Northeast,Small Business
+C035,Sample Customer 035,Chicago,IL,Midwest,Corporate
+C036,Sample Customer 036,Detroit,MI,Midwest,Consumer
+C037,Sample Customer 037,Atlanta,GA,South,Corporate
+C038,Sample Customer 038,Austin,TX,South,Small Business
+C039,Sample Customer 039,Seattle,WA,West,Corporate
+C040,Sample Customer 040,Denver,CO,West,Consumer
+C041,Sample Customer 041,Boston,MA,Northeast,Consumer
+C042,Sample Customer 042,New York,NY,Northeast,Consumer
+C043,Sample Customer 043,Chicago,IL,Midwest,Corporate
+C044,Sample Customer 044,Detroit,MI,Midwest,Corporate
+C045,Sample Customer 045,Atlanta,GA,South,Consumer
+C046,Sample Customer 046,Austin,TX,South,Corporate
+C047,Sample Customer 047,Seattle,WA,West,Corporate
+C048,Sample Customer 048,Denver,CO,West,Consumer
+C049,Sample Customer 049,Boston,MA,Northeast,Corporate
+C050,Sample Customer 050,New York,NY,Northeast,Consumer
+C051,Sample Customer 051,Chicago,IL,Midwest,Consumer
+C052,Sample Customer 052,Detroit,MI,Midwest,Small Business
+C053,Sample Customer 053,Atlanta,GA,South,Corporate
+C054,Sample Customer 054,Austin,TX,South,Small Business
+C055,Sample Customer 055,Seattle,WA,West,Corporate
+C056,Sample Customer 056,Denver,CO,West,Small Business
+C057,Sample Customer 057,Boston,MA,Northeast,Corporate
+C058,Sample Customer 058,New York,NY,Northeast,Corporate
+C059,Sample Customer 059,Chicago,IL,Midwest,Consumer
+C060,Sample Customer 060,Detroit,MI,Midwest,Consumer
+C061,Sample Customer 061,Atlanta,GA,South,Consumer
+C062,Sample Customer 062,Austin,TX,South,Corporate
+C063,Sample Customer 063,Seattle,WA,West,Small Business
+C064,Sample Customer 064,Denver,CO,West,Corporate
+C065,Sample Customer 065,Boston,MA,Northeast,Consumer
+C066,Sample Customer 066,New York,NY,Northeast,Corporate
+C067,Sample Customer 067,Chicago,IL,Midwest,Corporate
+C068,Sample Customer 068,Detroit,MI,Midwest,Corporate
+C069,Sample Customer 069,Atlanta,GA,South,Consumer
+C070,Sample Customer 070,Austin,TX,South,Small Business
+C071,Sample Customer 071,Seattle,WA,West,Corporate
+C072,Sample Customer 072,Denver,CO,West,Small Business
+C073,Sample Customer 073,Boston,MA,Northeast,Consumer
+C074,Sample Customer 074,New York,NY,Northeast,Consumer
+C075,Sample Customer 075,Chicago,IL,Midwest,Consumer
+C076,Sample Customer 076,Detroit,MI,Midwest,Corporate
+C077,Sample Customer 077,Atlanta,GA,South,Consumer
+C078,Sample Customer 078,Austin,TX,South,Small Business
+C079,Sample Customer 079,Seattle,WA,West,Consumer
+C080,Sample Customer 080,Denver,CO,West,Corporate
+C081,Sample Customer 081,Boston,MA,Northeast,Small Business
+C082,Sample Customer 082,New York,NY,Northeast,Corporate
+C083,Sample Customer 083,Chicago,IL,Midwest,Small Business
+C084,Sample Customer 084,Detroit,MI,Midwest,Consumer
+C085,Sample Customer 085,Atlanta,GA,South,Small Business
+C086,Sample Customer 086,Austin,TX,South,Corporate
+C087,Sample Customer 087,Seattle,WA,West,Corporate
+C088,Sample Customer 088,Denver,CO,West,Corporate
+C089,Sample Customer 089,Boston,MA,Northeast,Consumer
+C090,Sample Customer 090,New York,NY,Northeast,Consumer
+C091,Sample Customer 091,Chicago,IL,Midwest,Corporate
+C092,Sample Customer 092,Detroit,MI,Midwest,Corporate
+C093,Sample Customer 093,Atlanta,GA,South,Corporate
+C094,Sample Customer 094,Austin,TX,South,Corporate
+C095,Sample Customer 095,Seattle,WA,West,Small Business
+C096,Sample Customer 096,Denver,CO,West,Consumer
+C097,Sample Customer 097,Boston,MA,Northeast,Consumer
+C098,Sample Customer 098,New York,NY,Northeast,Small Business
+C099,Sample Customer 099,Chicago,IL,Midwest,Small Business
+C100,Sample Customer 100,Detroit,MI,Midwest,Corporate
+C101,Sample Customer 101,Atlanta,GA,South,Corporate
+C102,Sample Customer 102,Austin,TX,South,Small Business
+C103,Sample Customer 103,Seattle,WA,West,Consumer
+C104,Sample Customer 104,Denver,CO,West,Consumer
+C105,Sample Customer 105,Boston,MA,Northeast,Consumer
+C106,Sample Customer 106,New York,NY,Northeast,Consumer
+C107,Sample Customer 107,Chicago,IL,Midwest,Corporate
+C108,Sample Customer 108,Detroit,MI,Midwest,Consumer
+C109,Sample Customer 109,Atlanta,GA,South,Corporate
+C110,Sample Customer 110,Austin,TX,South,Consumer
+C111,Sample Customer 111,Seattle,WA,West,Small Business
+C112,Sample Customer 112,Denver,CO,West,Consumer
+C113,Sample Customer 113,Boston,MA,Northeast,Consumer
+C114,Sample Customer 114,New York,NY,Northeast,Small Business
+C115,Sample Customer 115,Chicago,IL,Midwest,Corporate
+C116,Sample Customer 116,Detroit,MI,Midwest,Small Business
+C117,Sample Customer 117,Atlanta,GA,South,Small Business
+C118,Sample Customer 118,Austin,TX,South,Consumer
+C119,Sample Customer 119,Seattle,WA,West,Corporate
+C120,Sample Customer 120,Denver,CO,West,Small Business

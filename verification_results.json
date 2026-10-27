@@ -1,0 +1,81 @@
+{
+  "build_exit_code": 0,
+  "generated_csv_and_validation_match": {
+    "cleaned/repair_log.csv": true,
+    "cleaned/rejected_sales.csv": true,
+    "cleaned/dim_product.csv": true,
+    "cleaned/dim_customer.csv": true,
+    "cleaned/fact_sales.csv": true,
+    "cleaned/dim_date.csv": true,
+    "validation.json": true
+  },
+  "database_tables_and_view_match": true,
+  "sql_export_checks": {
+    "slice": {
+      "rows": 4,
+      "matches_existing_export": true
+    },
+    "dice": {
+      "rows": 4,
+      "matches_existing_export": true
+    },
+    "drill_down": {
+      "rows": 34,
+      "matches_existing_export": true
+    }
+  },
+  "raw_counts": {
+    "products": {
+      "raw": 26,
+      "exact_unique": 24
+    },
+    "customers": {
+      "raw": 124,
+      "exact_unique": 120
+    },
+    "sales": {
+      "raw": 1224,
+      "exact_unique": 1200
+    }
+  },
+  "findings": {
+    "totals": [
+      {
+        "units_sold": 4131,
+        "sales_usd": 295490.58,
+        "cost_usd": 180401.33,
+        "gross_profit_usd": 115089.25
+      }
+    ],
+    "years": [
+      {
+        "year": 2024,
+        "sales_usd": 133636.17
+      },
+      {
+        "year": 2025,
+        "sales_usd": 161854.41
+      }
+    ],
+    "categories": [
+      {
+        "category": "Furniture",
+        "sales_usd": 161835.61
+      },
+      {
+        "category": "Electronics",
+        "sales_usd": 86298.55
+      },
+      {
+        "category": "Home & Kitchen",
+        "sales_usd": 33063.18
+      },
+      {
+        "category": "Office Supplies",
+        "sales_usd": 14293.24
+      }
+    ]
+  },
+  "database_integrity": "ok",
+  "foreign_key_violations": []
+}

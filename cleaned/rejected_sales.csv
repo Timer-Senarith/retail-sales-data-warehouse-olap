@@ -1,0 +1,16 @@
+sale_id,sale_date,customer_id,product_id,quantity,unit_price,discount_rate,sales_amount,reason
+S00157,2024-06-06,C038,P012,-2,59.99,0,119.98,Quantity must be positive; no returns in this exercise
+S00158,2024-12-02,C083,P004,-2,69.99,0.15,118.98,Quantity must be positive; no returns in this exercise
+S00159,2024-09-18,C009,P005,-5,89.99,0,449.95,Quantity must be positive; no returns in this exercise
+S00160,2024-11-10,C071,P015,-4,19.99,0,79.96,Quantity must be positive; no returns in this exercise
+S00161,2024-10-24,C043,P021,-6,19.99,0,119.94,Quantity must be positive; no returns in this exercise
+S00162,2024-12-28,C013,P005,-6,89.99,0.05,512.94,Quantity must be positive; no returns in this exercise
+S00163,2024-02-07,C999,P010,2,129.99,0.15,220.98,Unmatched customer ID
+S00164,2024-08-14,C999,P014,5,8.99,0,44.95,Unmatched customer ID
+S00165,2024-12-22,C999,P002,4,59.99,0,239.96,Unmatched customer ID
+S00166,2024-08-12,C999,P022,4,39.99,0,159.96,Unmatched customer ID
+S00167,2024-09-12,C999,P012,1,59.99,0,59.99,Unmatched customer ID
+S00168,2024-03-23,C999,P015,6,19.99,0.15,101.95,Unmatched customer ID
+S00169,2025-02-30,C072,P011,2,349.99,0,699.98,Invalid date
+S00170,2025-02-30,C077,P001,6,24.99,0.05,142.44,Invalid date
+S00171,2025-02-30,C085,P008,6,149.99,0,899.94,Invalid date

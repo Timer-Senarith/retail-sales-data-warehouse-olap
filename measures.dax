@@ -1,0 +1,19 @@
+// Create each measure separately on fact_sales.
+Total Sales = SUM(fact_sales[sales_amount_cents]) / 100
+
+Units Sold = SUM(fact_sales[quantity])
+
+Sales Lines = COUNTROWS(fact_sales)
+
+Average Line Value = DIVIDE([Total Sales], [Sales Lines])
+
+// Format Total Sales and Average Line Value as USD with two decimals.
+// Sales Lines is a line count, not an order count.
+
+// Requires dim_product -> fact_sales relationship; excludes operating expenses.
+Gross Profit =
+SUMX(
+    fact_sales,
+    fact_sales[sales_amount_cents]
+        - fact_sales[quantity] * RELATED(dim_product[unit_cost_cents])
+) / 100

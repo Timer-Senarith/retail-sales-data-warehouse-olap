@@ -1,0 +1,14 @@
+{
+  "raw_sales": 1224,
+  "duplicate_sales_removed": 24,
+  "rejected_sales": 15,
+  "accepted_sales": 1185,
+  "products": 24,
+  "customers": 120,
+  "calendar_dates": 731,
+  "recovered_prices": 8,
+  "corrected_or_recovered_amounts": 20,
+  "sales_total_usd": 295490.58,
+  "foreign_key_check": "passed",
+  "sqlite_integrity_check": "passed"
+}

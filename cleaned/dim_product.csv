@@ -1,0 +1,25 @@
+product_id,product_name,category,list_price_cents,unit_cost_cents
+P001,Wireless Mouse,Electronics,2499,1449
+P002,Keyboard,Electronics,5999,3479
+P003,Monitor,Electronics,22999,13339
+P004,Webcam,Electronics,6999,4059
+P005,Headphones,Electronics,8999,5219
+P006,USB Hub,Electronics,3499,2029
+P007,Desk,Furniture,19999,11599
+P008,Office Chair,Furniture,14999,8699
+P009,Bookcase,Furniture,9999,5799
+P010,Cabinet,Furniture,12999,7539
+P011,Standing Desk,Furniture,34999,20299
+P012,Side Table,Furniture,5999,3479
+P013,Notebook Pack,Office Supplies,1299,753
+P014,Pen Set,Office Supplies,899,521
+P015,Printer Paper,Office Supplies,1999,1159
+P016,Desk Organizer,Office Supplies,1699,985
+P017,Stapler,Office Supplies,999,579
+P018,Folders,Office Supplies,799,463
+P019,Coffee Maker,Home & Kitchen,7999,4639
+P020,Water Bottle,Home & Kitchen,2499,1449
+P021,Lunch Box,Home & Kitchen,1999,1159
+P022,Desk Lamp,Home & Kitchen,3999,2319
+P023,Mug Set,Home & Kitchen,2999,1739
+P024,Storage Box,Home & Kitchen,1499,869

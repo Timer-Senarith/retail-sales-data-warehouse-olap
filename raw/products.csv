@@ -1,0 +1,27 @@
+product_id,product_name,category,list_price,unit_cost
+P001,Wireless Mouse, electronics ,24.99,14.49
+P002,Keyboard,ELECTRONICS,59.99,34.79
+P003,  Monitor ,Electronics,229.99,133.39
+P004,Webcam,Electronics,$69.99,40.59
+ p005 ,Headphones,Electronics,89.99,52.19
+P006,USB Hub,Electronics,34.99,20.29
+P007,Desk,furniture,199.99,115.99
+P008,Office Chair,Furniture,149.99,86.99
+P009,Bookcase,Furniture,99.99,57.99
+P010,Cabinet,Furniture,129.99,75.39
+P011,Standing Desk,Furniture,349.99,202.99
+P012,Side Table,Furniture,59.99,34.79
+P013,Notebook Pack,Office supplies,12.99,7.53
+P014,Pen Set,Office Supplies,8.99,5.21
+P015,Printer Paper,Office Supplies,19.99,11.59
+P016,Desk Organizer,Office Supplies,16.99,9.85
+P017,Stapler,Office Supplies,9.99,5.79
+P018,Folders,Office Supplies,7.99,4.63
+P019,Coffee Maker,Home and Kitchen,79.99,46.39
+P020,Water Bottle,Home & Kitchen,24.99,14.49
+P021,Lunch Box,Home & Kitchen,19.99,11.59
+P022,Desk Lamp,Home & Kitchen,39.99,23.19
+P023,Mug Set,Home & Kitchen,29.99,17.39
+P024,Storage Box,Home & Kitchen,14.99,8.69
+P011,Standing Desk,Furniture,349.99,202.99
+P012,Side Table,Furniture,59.99,34.79
